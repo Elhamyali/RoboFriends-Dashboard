@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import App from './App';
+import Robot from './Robot';
 import * as serviceWorker from './serviceWorker';
+import 'tachyons';
 
-ReactDOM.render(<h1>Welcome to RoboFriends!</h1>, document.getElementById('root'));
+ReactDOM.render(<Robot />, document.getElementById('root'));
 serviceWorker.register();
